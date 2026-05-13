@@ -27,6 +27,12 @@ img {
 h2 {
     font-size: 25px;
     text-align: center;
+    font-weight: bold;
+    color: rgb(61, 110, 139);
+}
+
+section {
+    margin-bottom: 75px;
 }
 
 p {

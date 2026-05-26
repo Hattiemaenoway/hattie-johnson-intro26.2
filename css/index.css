@@ -18,7 +18,7 @@ h1 {
 img {
     width: 300px;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
     border: 5px solid teal;
     border-radius: 15px;
 }
@@ -50,8 +50,9 @@ p {
     background-color: teal;
     color: white;
     width: 300px;
-    padding: 10px;
+    padding: 10px 80px;
     margin: 10px auto;
+    text-align: center;
     border-radius: 10px;
 }
 
@@ -65,6 +66,7 @@ p {
 #Experience ul {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 200px;
 
 }
 
@@ -88,4 +90,24 @@ nav ul {
 nav a {
     color: white;
     font-weight: bold;
+}
+
+#Skills li {
+    background-color: rgb(185, 216, 206);
+    text-align: center;
+    list-style: none;
+    width: 200px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#Skills ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#myfooter p{
+    font-size: 10px;
+    border: none;
 }

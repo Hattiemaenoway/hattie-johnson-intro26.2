@@ -111,3 +111,73 @@ nav a {
     font-size: 10px;
     border: none;
 }
+
+#leave_message form {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#leave_message label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#leave_message input,
+#leave_message textarea {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#leave_message textarea {
+    min-height: 120px;
+}
+
+#leave_message p{
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+
+#leave_message button {
+    min-height: 34px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        width: auto;
+        font-size: 36px;
+        padding: 15px;
+    }
+
+    p {
+        width: 85%;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #leave_message form {
+        width: 90%;
+    }
+
+    #leave_message button {
+        width: 100%;
+    }
+}

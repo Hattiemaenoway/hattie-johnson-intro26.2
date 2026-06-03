@@ -183,7 +183,7 @@ nav a {
 }
 
 #Projects li {
-    border: 2px, solid, rgb(185, 216, 206);
+    border: 2px solid rgb(185, 216, 206);
     text-align: center;
     list-style: none;
     width: 200px;

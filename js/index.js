@@ -97,7 +97,7 @@ for (let i = 0; i < repositories.length; i++) {
 }
 })
 .catch(error => {
-    console.log(error);
+    console.error(error);
 });
 
 

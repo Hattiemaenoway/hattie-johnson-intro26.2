@@ -181,3 +181,19 @@ nav a {
         width: 100%;
     }
 }
+
+#Projects li {
+    border: 2px solid rgb(185, 216, 206);
+    text-align: center;
+    list-style: none;
+    width: 200px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#Projects ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

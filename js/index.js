@@ -75,3 +75,31 @@ messageList.appendChild(newMessage);
 messageForm.reset();
 
 })
+
+//find the projects section and unordered lists
+let projectSection = document.getElementById("Projects");
+let projectList = projectSection.getElementsByTagName("ul");
+
+
+//creating the fetch
+fetch("https://api.github.com/users/hattiemaenoway/repos")
+.then(response => response.json())
+.then(repositories => {
+    console.log(repositories);
+
+//create the project list
+for (let i = 0; i < repositories.length; i++) {
+  let project = document.createElement("li");
+
+  project.innerText = repositories[i].name;
+
+  projectList[0].appendChild(project);
+}
+})
+.catch(error => {
+    console.error(error);
+
+    projectList[0].innerText = "Unexpected Error! Please try again later.";
+});
+
+

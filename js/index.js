@@ -98,6 +98,8 @@ for (let i = 0; i < repositories.length; i++) {
 })
 .catch(error => {
     console.error(error);
+
+    projectList[0].innerText = "Unexpected Error! Please try again later.";
 });
 
 
